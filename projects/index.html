@@ -13,6 +13,14 @@
 
             background-color: rgba(255, 255, 255, 0.1);
         }
+
+        .projects {
+            max-height: 260px;
+            overflow-y: auto;
+
+            scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0);
+            scrollbar-track-color: rgba(0, 0, 0, 0);
+        }
     </style>
 </head>
 <body>
@@ -24,23 +32,39 @@
         <h1>Projects</h1>
         <p>Stuff I made or contributed to.</p>
         <hr>
-        <div class="project">
-            <h1>OZZOBot</h1>
-            <p>A Discord bot I made for OZZOYT's Discord server.</p>
+        <div class="projects">
+            <article class="project">
+                <h2>OZZOBot</h2>
+                <p>A Discord bot I made for OZZOYT's Discord server.</p>
 
-            <a target="_blank" href="https://github.com/Demiomad/OZZOBot">Source Code</a>
-        </div>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/OZZOBot">Source Code</a>
+            </article>
 
-        <div class="project">
-            <h1>Cosmos Gen3</h1>
+            <article class="project">
+                <h2>JPENcoding</h2>
+                <p>A dumb encoder I made for no reason.</p>
 
-            <p>
-                The current rewrite of Cosmos.
-                <a target="_blank" href="https://valentin.bzh/posts/3" class="learn-more">Learn more</a>
-            </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/JPENcoding">Source Code</a>
+            </article>
 
-            <p><b>While I don't own this project, I have contributed to it.</b></p>
-            <a target="_blank" href="https://github.com/valentinbreiz/nativeaot-patcher">Source Code</a>
+            <article class="project">
+                <h2>FrickSfk</h2>
+                <p>A tool that cleans up VEGAS' cache files.</p>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/FrickSfk">Source Code</a>
+            </article>
+
+            <article class="project">
+                <h2>Cosmos Gen3</h2>
+
+                <p>
+                    The current rewrite of Cosmos.
+                    <a target="_blank" rel="noopener noreferrer" href="https://valentin.bzh/posts/3" class="learn-more">Learn more</a>
+                </p>
+
+                <p><b>While I don't own this project, I have contributed to it.</b></p>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinbreiz/nativeaot-patcher">Source Code</a>
+            </article>
         </div>
         <hr>
         <a href="/home">Back</a>
