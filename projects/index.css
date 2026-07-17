@@ -1,0 +1,19 @@
+.project {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.projects {
+    max-height: 260px;
+    overflow-y: auto;
+
+    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0);
+    scrollbar-track-color: rgba(0, 0, 0, 0);
+
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}

@@ -4,72 +4,61 @@
     <meta charset="UTF-8">
     <title>Demiomad - Projects</title>
     <link rel="stylesheet" href="/base.css">
-
-    <style>
-        .project {
-            margin: 10px;
-            padding: 10px;
-            border-radius: 8px;
-
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-
-        .projects {
-            max-height: 260px;
-            overflow-y: auto;
-
-            scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0);
-            scrollbar-track-color: rgba(0, 0, 0, 0);
-        }
-    </style>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <video muted autoplay loop playsinline class="background-video" src="/resources/bg.mp4">
-        Your browser doesn't seem to support the &lt;video&gt; tag.
-    </video>
-    <div class="bg-overlay"></div>
     <div class="container">
-        <h1>Projects</h1>
-        <p>Stuff I made or contributed to.</p>
-        <hr>
+        <div class="heading">
+            <h1>Projects</h1>
+            <p>Stuff I made or contributed to.</p>
+        </div>
+
+        <br>
+
         <div class="projects">
             <article class="project">
                 <h2>OZZOBot</h2>
                 <p>A Discord bot I made for OZZOYT's Discord server.</p>
-
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/OZZOBot">Source Code</a>
-            </article>
-
-            <article class="project">
-                <h2>JPENcoding</h2>
-                <p>A dumb encoder I made for no reason.</p>
-
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/JPENcoding">Source Code</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/OZZOBot/bot">Source Code</a>
             </article>
 
             <article class="project">
                 <h2>FrickSfk</h2>
                 <p>A tool that cleans up VEGAS' cache files.</p>
-
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/FrickSfk">Source Code</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/FrickSfk/releases/latest">Download</a>
             </article>
 
             <article class="project">
-                <h2>Cosmos Gen3</h2>
-
+                <h2>Cosmos Gen3<span style="color: gold;">*</span></h2>
                 <p>
                     The current rewrite of Cosmos.
-                    <a target="_blank" rel="noopener noreferrer" href="https://valentin.bzh/posts/3" class="learn-more">Learn more</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://valentin.bzh/posts/3" class="not-button">Learn more</a>
                 </p>
-
                 <p><b>While I don't own this project, I have contributed to it.</b></p>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinbreiz/nativeaot-patcher">Source Code</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/valentinbreiz/nativeaot-patcher/releases/latest">Download</a>
             </article>
+
+            <article class="project">
+                <h2>AutoRedZone for VEGAS Pro<span style="color: gold;">*</span></h2>
+
+                <p>An attempt of recreating <a class="not-button" href="https://molokheiya.stars.ne.jp/KDC/ARZv2Series/">AutoRedZone</a>'s functionality in VEGAS Pro.</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/ARZVP">Source Code</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/ARZVP/releases/latest">Download</a>
+            </article>
+
+            <article class="project">
+                <h2>Hypesquadify</h2>
+                <p>Allows you to get the HypeSquad badges.</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demiomad/Hypesquadify">Source Code</a>
+            </article>
+
+            <p><span style="color: gold;">*</span> - I am proud of this project.</p>
         </div>
-        <hr>
-        <a href="/home">Back</a>
+
+        <br>
+        <a class="go-back" href="/home">Go Back</a>
     </div>
 </body>
 </html>

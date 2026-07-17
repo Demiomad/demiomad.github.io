@@ -1,0 +1,7 @@
+.social-list a {
+    padding: 5px 10px 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px;
+}
