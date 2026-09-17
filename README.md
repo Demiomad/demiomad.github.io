@@ -1,2 +1,1 @@
-# Website
-this is a website
+https://truedotbin.github.io/
